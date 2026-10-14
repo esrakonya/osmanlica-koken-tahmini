@@ -18,7 +18,7 @@ Arap harfleriyle yazılmış tek bir Osmanlıca kelimenin köken dilini (Arapça
 
 ## Yöntem
 
-Modeller basitten karmaşığa doğru karşılaştırıldı: çoğunluk sınıfı (M0), Lojistik Regresyon ve Doğrusal SVM (1-3 harflik karakter n-gram, TF-IDF), karakter CNN (3 seed) ve BiLSTM. Model seçimi yalnızca doğrulama kümesinde yapıldı; BiLSTM doğrulamada elendi. Test kümesi tek seferde, nihai değerlendirmede kullanıldı.
+Modeller basitten karmaşığa doğru karşılaştırıldı: çoğunluk sınıfı (M0), Lojistik Regresyon ve Doğrusal SVM (1-3 harflik karakter n-gram, TF-IDF), karakter CNN (3 seed) ve BiLSTM. Model seçimi yalnızca doğrulama kümesinde yapıldı; BiLSTM doğrulamada elendi. Test kümesi model seçiminde kullanılmadı; ayarlar sabitlendikten sonra, değiştirilmeden nihai değerlendirmede ölçüldü (yeniden çalıştırmada sonuçlar birebir tekrarlandı).
 
 ## Test sonuçları (495 kelime)
 
